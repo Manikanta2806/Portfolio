@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right top, #cfe9f1, #a0d4f2, #6dbde8, #4ba3dd, #2b8acb);
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+  section {
+    padding: 60px 20px;
+    color: #fff;
+  }
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://static.vecteezy.com/system/resources/thumbnails/006/998/394/small/blue-abstract-background-blue-background-design-abstract-futuristic-background-free-vector.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      
+      
+  }
+  #about {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #about:hover {
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+    

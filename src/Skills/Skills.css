@@ -1,0 +1,75 @@
+.skills-section {
+    
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    scroll-margin-top: 100px;
+    min-height: 100vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .skill-card {
+    border-radius: 20px;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    min-height: 240px;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .animate-fade {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* 🎨 Gradient Themes */
+  .skill-python {
+    background: linear-gradient(135deg, #4b8bbe, #306998);
+  }
+  
+  .skill-java {
+    background: linear-gradient(135deg, #5382a1, #2c4258);
+  }
+  
+  .skill-react {
+    background: linear-gradient(135deg, #61dbfb, #0a2f4e);
+  }
+  
+  .skill-tensorflow {
+    background: linear-gradient(135deg, #ff6f00, #ffa726);
+  }
+  
+  .skill-mysql {
+    background: linear-gradient(135deg, #00758f, #005f73);
+  }
+  
+  .skill-mongodb {
+    background: linear-gradient(135deg, #4db33d, #2e7d32);
+  }
+  
+  .skill-tools {
+    background: linear-gradient(135deg, #f34f29, #c62828);
+  }
+  

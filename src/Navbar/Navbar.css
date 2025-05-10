@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .nav-link {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #0dcaf0 !important; /* Bootstrap cyan */
+    text-decoration: underline;
+  }
+  

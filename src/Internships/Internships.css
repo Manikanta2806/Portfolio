@@ -1,0 +1,76 @@
+.internships-section {
+    min-height: 100vh;
+   
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    scroll-margin-top: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .internship-card {
+    border-radius: 20px;
+    padding: 1.5rem;
+    color: white;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    overflow: hidden;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .internship-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .intern-logo {
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+  }
+  
+  /* Google card */
+  .internship-card.google {
+    background: linear-gradient(135deg, #4285F4, #7BAAF7);
+  }
+  
+  /* AWS card */
+  .internship-card.aws {
+    background: linear-gradient(135deg, #232f3e, #ff9900, #ff7e5f);
+  }
+  
+  /* Responsive adjustment */
+  @media (max-width: 768px) {
+    .internship-card {
+      min-height: 300px;
+    }
+  }
+  
